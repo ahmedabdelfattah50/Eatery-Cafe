@@ -1,0 +1,692 @@
+
+body {
+    overflow-x: hidden; 
+}
+/* ================= Start Navbar ================= */ 
+
+nav {
+    background: transparent;
+    z-index: 2;
+    transition: 0.4s ease-in-out;
+}
+
+.total_nav {
+    margin-left: 0%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.total_nav .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+}
+
+.total_nav .navbar-brand:hover {
+    color: #fff;
+}
+
+.total_nav .navbar-brand span {
+    color:#ce3232;
+    font-weight: 700;
+}
+
+.total_nav .navbar-collapse ul {
+    margin-left: 15%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ce3232 !important;
+}
+
+nav .total_nav .info_right {
+    margin-left: 8%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.total_nav .navbar-collapse .info_right p {
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;    
+    width: 100%;
+    margin-top: 3%;
+    transition: 0.4s ease-in-out;
+}
+
+.total_nav .navbar-collapse .info_right p:hover {
+    color: #ce3232 !important;
+}
+
+.total_nav .navbar-collapse .info_right i {
+    color: #fff;
+    font-size: 13px;
+    transition: 0.4s ease-in-out;
+}
+
+.total_nav .navbar-collapse .info_right p:hover i {
+    color: #ce3232 !important;
+}
+
+.total_nav .navbar-collapse .info_right button {
+    background: #ce3232;
+    color: #f9f9f9;
+    padding: 8px 20px;
+    border: none;    
+    width: 70%;
+    transition: 0.4s ease-in-out;
+}
+
+.total_nav .navbar-collapse .info_right button:hover {
+    background: #292929;
+    color: #fff;
+}
+
+/* ================= End Navbar ================= */
+
+/* ================= Start icon go up ================= */
+
+#icon_up {
+    float: right;
+    position: sticky;
+    top:90%;
+    font-size: 35px;
+    margin-right: 35px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    z-index: 5;
+    background-image:linear-gradient(#a55b5b, #ce3232);
+    display: none;
+    cursor: pointer;
+}
+
+
+/* ================= End icon go up ================= */
+
+/* ================= Strat Slider ================= */
+
+.first_slider {
+    margin-top: 0px;
+}
+
+.first_slider .carousel-item { 
+    height: 650px;  
+}
+
+.carousel-caption {
+    padding-bottom: 180px;
+    text-align: left;
+}
+
+.first_slider .carousel-caption p {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.first_slider .carousel-caption h5 {
+    font-size: 35px;
+    font-weight: 800;
+    width: 70%;
+    margin-bottom: 4%; 
+}
+
+.first_slider .slider_btn_1 {
+    background: #ce3232;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 40px;
+    transition: 0.4s ease-in-out;
+}
+
+.first_slider .slider_btn_1:hover {
+    background: #e6e6e6;
+    color: #333;
+}
+
+.first_slider .slider_btn_2 {
+    background: #292929;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 40px;
+    transition: 0.4s ease-in-out;
+}
+
+.first_slider .slider_btn_2:hover {
+    background: #ffffff;
+    color: #333;
+}
+
+.first_slider .slider_btn_3 {    
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    transition: 0.4s ease-in-out;
+    background: transparent;
+}
+
+.first_slider .slider_btn_3:hover {
+    background: #ce3232;
+    border: 2px solid #ce3232;
+}
+
+.first_slider .carousel-indicators {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    margin-left: 77%;
+    padding-bottom: 260px;
+}
+
+.first_slider .carousel-indicators li {
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;    
+    background: transparent;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+.first_slider .carousel-indicators .active {
+    background: #ce3232;
+}
+
+.first_slider .carousel-control-prev , 
+.first_slider .carousel-control-next {
+    display: none;
+} 
+/* ================= End Slider ================= */
+
+/* ================= Start About ================= */
+
+.about_div {
+    padding: 80px 0;
+    /* height: 509.712px; */
+    /* overflow: hidden; */
+   
+}
+
+.total_about {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 5%;    
+    overflow: hidden;
+}
+
+.left_about , 
+.right_about {
+    /* display: none; */
+    /* visibility: hidden;     */    
+}
+
+.about_div .total_about .left_about p {
+    color: #757575;
+}
+
+.about_div .total_about .left_about h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5%;
+    color: #353535;
+}
+
+.total_about .right_about img {
+    width: 100%;
+    
+}
+
+/* ================= End About ================= */
+
+/* ================= Start chefs ================= */ 
+
+.chefs {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.chefs h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 650;
+}
+
+.chefs .chefs_para {
+    text-align: center;
+    color: #bfbdbd;
+    font-weight: 650;
+}
+
+.total_chefs {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 3%;
+    margin-top: 30px;
+}
+ 
+.chefs .chef_card {
+    height: 650px;
+    transition: 0.4s ease-in-out;
+} 
+
+.card_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.card_img:hover .hover_bac {
+    height: 100%;
+}
+
+.card_img:hover img {
+    transform: scale(1.1);
+}
+
+.hover_bac {     
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #1c1c1c;
+   overflow: hidden;
+   width: 100%;
+   height: 0;
+   transition: .4s ease-in-out;
+   opacity: 0.95;
+   text-align: center;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hover_bac h2 {
+    color: #fff;
+    width: 70%;
+    font-size: 23px;
+}
+
+.hover_bac ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.hover_bac i {
+    color: #fff;
+    width: 50%;
+    font-size: 23px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #302f2f;
+    margin-right: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.hover_bac i:hover{
+    border-radius: 50%;
+    padding: 10px;
+    background: #ce3232;
+}
+
+.chefs .chef_card img {
+    width: 100%;
+    height: 100%;   
+    transition: 0.4s ease-in-out;
+}
+
+.chefs .chef_card .chefs_info h1 {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: #454545;
+    font-weight: 700;
+}
+
+.chefs .chef_card .chefs_info p {
+    font-size: 15px;
+    text-align: center;
+    color: #bfbdbd;
+    font-weight: 650;
+}
+
+/* ================= End chefs ================= */
+
+/* ================= start slider of food ================= */
+
+.total_meals {
+    padding: 70px 0;
+}
+
+.total_meals h1 {
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.meals .item {
+    margin: 3px;
+    height: 250px;    
+}
+
+.meals .item img {
+    height: 100%;
+    width: 100%;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    margin-top: 20px;
+    
+}
+
+.owl-theme .owl-dots .owl-dot {
+    outline: none;  
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border-radius: 50%;
+    height: 13px !important;  
+    width: 13px !important;  
+    background: transparent;
+    border: 2px solid #ddd;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ce3232 !important;
+    
+    transition: 0.4s ease-in-out;
+}
+
+/* .owl-dots button .active {
+    
+} */
+
+
+/* ================= End slider of food ================= */
+
+/* ================= Start Menus ================= */
+
+.menus {
+    padding: 100px 0;
+    margin-bottom: -7%;
+    background:#f9f9f9;
+}
+
+.menus h1 {
+    text-align: center;
+}
+
+.menus .menusFir_para {
+    text-align: center;
+    color: #757575;
+    font-size: 15px;
+    font-weight: 700;
+} 
+
+.total_menus {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 3%;
+}
+
+.menu .menu_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu .menu_img img {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+}
+
+.menu:hover img{
+    transform: scale(1.1);
+}
+
+.menu_detail {
+    position: absolute;
+    background: rgba(8, 8, 8, 0.705);
+    width: 100%;
+    height: 0px;
+    padding: 0 10px;
+    bottom:0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.menu_detail h2 {
+    margin-top: 10px;
+}
+
+.menu_detail h2 span {
+    float: right;
+    margin-right: 20px;
+}
+
+.menu:hover .menu_detail {
+    height: 120px;
+}
+
+/* ================= End Menus ================= */ 
+
+/* ================= Start Testimonials ================= */ 
+
+.test_monials {
+    height: 400px;
+    background: rgba(0, 0, 0, 0.658);
+    background-image: url("../images/testimonial-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test_monials .carousel-indicators {
+    display: none;
+}
+
+.test_monials .carousel-item {
+    height: 400px;
+}
+
+.test_monials .carousel-caption {
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.test_monials .carousel-caption h5 {
+    font-size: 30px;
+    margin-bottom: 2%;
+    font-weight: 800;
+    color: #fff;
+}
+
+.test_monials .carousel-caption p {
+    font-size: 25px;
+    font-weight: 600;
+} 
+
+.test_monials .carousel-control-prev , 
+.test_monials .carousel-control-next {
+    display: none;
+}
+
+/* ================= End Testimonials ================= */
+
+/* ================= Start contact ================= */
+
+.contacts {
+    padding: 100px 0;
+}
+
+.contacts .total_conatcts {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 5%;
+}
+
+.contacts input::placeholder {
+    color: rgb(153, 149, 149);
+    font-size: 20px;
+}
+
+.contacts .contact_names {
+    margin-top: 5%;
+}
+
+.contacts .contact_names input {
+    width: 47%;
+    margin-right: 2%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+.contacts .subject_form {
+    margin-top: 5%;
+    display: block;
+    width: 97%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+.contacts textarea {
+    padding: 10px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 97%;
+    height: 180px;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 2%;
+}
+
+.contacts textarea::placeholder {
+    color: rgb(153, 149, 149);
+    font-size: 20px;
+}
+
+.contacts button {
+    width: 98%;
+    background: #ce3232;
+    border: none;
+    margin-top: 7%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.contacts button:hover {
+    background: #292929;
+}
+
+/* ================= End contact ================= */
+
+/* ================= Start footer ================= */
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 70px 0;
+}
+
+footer .total_footers {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 5%;
+}
+
+footer .special_footer {
+    position: relative;
+    background-image: url("../images/footer-open-hour-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    height: 215px;
+    margin-left: -20%;
+    text-align: center;
+}
+
+.special_footer_bac {
+    position: absolute;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+    width: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.575);
+}
+
+footer .special_footer h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+footer .special_footer p {
+    color: #fff;
+} 
+
+.footer_sec h1 {
+    color:#353535;
+    font-size: 30px;
+}
+
+.footer_sec p {
+    color: #909090;
+    width: 95%;
+}
+
+.footer_sec .footer_icons {
+    display: flex;
+    flex-flow: row;
+}
+
+.footer_sec a {
+    text-decoration: none;
+}
+
+.footer_sec i {
+    color: #ce3232;
+    padding: 20px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+}
+
+.footer_sec i:hover {
+    color: #fff;    
+    background: #ce3232;    
+    
+}
+/* ================= End footer ================= */

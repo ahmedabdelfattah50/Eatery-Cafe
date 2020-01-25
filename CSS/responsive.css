@@ -1,0 +1,830 @@
+
+@media (min-width: 1200px) {   
+    /* ================= Start Testimonials ================= */ 
+    .test_monials {
+        height: 350px;
+        margin-top: -8.5%;
+    }
+
+    /* ================= End Testimonials ================= */ 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {      
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= Start Navbar ================= */ 
+    .total_nav .navbar-collapse ul {
+        margin-left: 10%;
+    }
+
+    .total_nav .navbar-collapse .info_right p {
+        width: 70%;
+    }
+
+    .total_nav .navbar-collapse .info_right button {
+        width: 100%;
+    }
+    /* ================= End Navbar ================= */
+
+   /* ================= Strat Slider ================= */
+
+    .first_slider {
+        margin-top: 0px;
+    }
+
+    .first_slider .carousel-item { 
+        height: 600px;  
+    }    
+
+    .carousel-caption {
+        padding-bottom: 160px;
+    }
+ 
+    .first_slider .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .first_slider .carousel-caption h5 {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .first_slider .carousel-indicators {
+        padding-bottom: 250px;
+    }    
+    
+    /* ================= End Slider ================= */
+
+    /* ================= Start About ================= */
+
+    .about_div {
+        padding: 60px 0;
+        margin-top: -10px;   
+    }
+
+    .total_about {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 3%;
+    }
+
+    .about_div .total_about .left_about {
+        padding: 0 10px;
+    }
+
+    .about_div .total_about .left_about h1 {
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+
+    .about_div .total_about .right_about {
+        padding: 0 10px;
+    }
+
+    .total_about .right_about img {
+        margin-top: 8%;
+    }
+
+    /* ================= End About ================= */
+
+    /* ================= Start chefs ================= */ 
+
+    .chefs h1 {
+        font-size: 30px;
+    }
+
+    .chefs .chefs_para {
+        font-size: 15px;
+        margin-top: -5px;
+    }
+
+    .total_chefs {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 3%;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    
+    .chefs .chef_card {
+        height: 500px;
+    } 
+
+    .chefs .chef_card img {
+        width: 100%;
+        height: 400px;   
+    }
+
+    .chefs .chef_card .chefs_info h1 {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+
+    .chefs .chef_card .chefs_info p {
+        font-size: 13px;
+    }
+
+    /* ================= End chefs ================= */
+
+    /* ================= Start Menus ================= */
+
+    .menus {
+        padding: 70px 0;
+        margin-bottom: -7.2%;
+    }
+
+    .menus h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .menus .menusFir_para {
+        margin-top: -5px;
+    } 
+    /* ================= End Menus ================= */ 
+
+    /* ================= Start Testimonials ================= */ 
+
+    .test_monials {
+        height: 350px;
+    }
+
+    .test_monials .carousel-item {
+        height: 300px;
+    }
+
+    .test_monials .carousel-caption {
+        padding-bottom: 30px;
+    }
+
+    .test_monials .carousel-caption h5 {
+        font-size: 28px;
+    }
+
+    .test_monials .carousel-caption p {
+        font-size: 22px;
+    } 
+    /* ================= End Testimonials ================= */
+
+    /* ================= Start contact ================= */
+
+    .contacts {
+        padding: 70px 0;
+    }
+
+    .contacts .total_conatcts {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        padding: 0 10px;
+    }
+
+    .contacts input::placeholder {
+        color: rgb(153, 149, 149);
+        font-size: 20px;
+    }
+
+    .contacts iframe {
+        width: 100%;
+    }
+
+    .contacts .contact_names input {
+        width: 47%;
+    }
+
+    .contacts .contact_names {
+        margin-right: -3.5%;
+        margin-bottom: -3%;
+    }
+
+    .contacts .form {
+        width: 100%;
+    }
+
+    .contacts .form h1 {
+        font-size: 30px;
+        margin-top: 3%;
+        margin-bottom: -1%;
+    }
+
+    .contacts .subject_form {
+        width: 100%;
+    }
+    
+    .contacts textarea {
+        width: 100%;
+    }
+            
+    .contacts button {
+        margin-top: 3%;
+        width: 35%;
+    }
+    /* ================= End contact ================= */
+
+    /* ================= Start footer ================= */
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .total_footers {
+        grid-gap: 3%;
+        padding: 0 10px;
+    }
+
+    footer .special_footer h2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    footer .special_footer p {
+        font-size: 13px;
+    } 
+
+    .footer_sec .footer_icons {
+        margin-bottom: 2%;
+    }
+    /* ================= End footer ================= */
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 991.89px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= Start Navbar ================= */ 
+
+     nav {
+        background: #fff !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/menu-alt-512.png");
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #ffcfbc !important;
+    }
+    
+    .total_nav .navbar-brand {
+        color: #000 !important;
+        margin-left: 0%;
+        margin-right: 60%;
+    }
+
+    .total_nav {
+        margin-top: 0%;  
+    }
+
+    .total_nav .navbar-collapse ul {
+        margin-left: 0%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+
+    nav .total_nav .info_right {
+        margin-left: 0%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .total_nav .navbar-collapse .info_right p {
+        color: #000 !important;
+        text-align: center;
+    }
+
+    .total_nav .navbar-collapse .info_right i {
+        color: #000 !important;
+    }
+
+    .total_nav .navbar-collapse .info_right button {        
+        width: 50%;        
+        margin-bottom: 20px;
+    }
+
+    /* ================= End Navbar ================= */
+
+    /* ================= Strat Slider ================= */
+    .first_slider {
+        margin-top: 0px;
+    }
+
+    .first_slider .carousel-item { 
+        height: 550px;  
+    }    
+
+    .carousel-caption {
+        padding-bottom: 130px;
+    }
+ 
+    .first_slider .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .first_slider .carousel-caption h5 {
+        font-size: 25px;
+        width: 90%;
+        margin-bottom: 7%;
+    }
+
+    .first_slider .carousel-indicators {
+        padding-bottom: 220px;
+    } 
+
+    .first_slider .carousel-indicators li {
+        height: 10px;
+        width: 10px;
+    }
+
+    /* ================= End Slider ================= */
+
+    /* ================= Start About ================= */
+
+    .about_div {
+        padding: 70px 0;
+        margin-top: -170px;
+    }
+
+    .total_about {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+    }
+
+    .about_div .total_about .left_about p:first-child {
+        color: #757575;
+        margin-top: 20%;
+    } 
+
+    .total_about .right_about img {
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    /* ================= End About ================= */
+
+    /* ================= Start chefs ================= */ 
+
+    .total_chefs {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 3%;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    
+    .chefs .chef_card:last-child {
+        width: 100%;
+        margin-left: 50%;
+    }
+        
+    /* ================= End chefs ================= */
+
+    /* ================= Start Menus ================= */
+    
+    .menus {
+        margin-bottom: -10%;
+    }
+
+    .total_menus {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin-top: 3%;
+    }
+    /* ================= End Menus ================= */ 
+
+    /* ================= Start Testimonials ================= */ 
+
+    .test_monials {
+        height: 310px;
+    }
+
+    .test_monials .carousel-item {
+        height: 300px;
+    }
+
+    .test_monials .carousel-caption {
+        padding-bottom: 50px;
+    }
+
+    .test_monials .carousel-caption h5 {
+        font-size: 28px;
+    }
+
+    .test_monials .carousel-caption p {
+        font-size: 20px;
+    } 
+
+    /* ================= End Testimonials ================= */
+
+    /* ================= Start contact ================= */
+
+    .contacts {
+        padding: 100px 0;
+    }
+
+    .contacts .total_conatcts {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        padding: 0 10px;
+    }
+
+    /* ================= End contact ================= */
+
+    /* ================= Start footer ================= */
+    footer {
+        padding-bottom: 100px;
+    }
+
+    footer .total_footers {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 10%;
+        grid-row-gap: 15%;
+    }
+
+    footer .special_footer {
+        border-radius: 20px;
+        padding: 20px;
+        height: 215px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    /* ================= End footer ================= */
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {    
+    body {
+        overflow-x: hidden;
+    }
+        /* ================= Start Navbar ================= */ 
+
+    nav {
+        background: #ddd;
+        background-image: url("../images/White-Choc-Truffles.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        box-shadow: 0 0 10px #3f332e;
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/menu-alt-512.png");
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #ffcfbc !important;
+    }
+
+    
+    .total_nav .navbar-brand {
+        color: #000 !important;
+        margin-left: 0%;
+        margin-right: 60%;
+    }
+    
+    .total_nav {
+        margin-top: 0%;  
+    }
+
+    .total_nav .navbar-collapse ul {
+        margin-left: 0%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #ff4c06;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(7, 132, 182);
+    }
+
+    nav .total_nav .info_right {
+        margin-left: 0%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .total_nav .navbar-collapse .info_right p {
+        color: #ff4c06;
+        text-align: center;
+    }
+
+    .total_nav .navbar-collapse .info_right p:hover { 
+        color: rgb(7, 132, 182);
+    }
+
+    .total_nav .navbar-collapse .info_right i {
+        color: #ff4c06;
+    }
+
+    .total_nav .navbar-collapse .info_right p:hover i {
+        color: rgb(7, 132, 182);
+    } 
+
+
+    .total_nav .navbar-collapse .info_right button {        
+        width: 50%;        
+        margin-bottom: 20px;
+    }
+
+
+    /* ================= End Navbar ================= */
+    /* ================= Strat Slider ================= */
+
+    .first_slider {
+        display: none;
+    }
+
+    /* ================= End Slider ================= */
+    /* ================= Start About ================= */
+
+    .about_div {
+        padding: 100px 0;
+    }
+
+    .about_div p:first-child {
+        margin-top: 170px !important;
+    }
+
+    /* ================= End About ================= */
+
+    #icon_up {
+        font-size: 25px;
+        margin-right: 25px;
+        padding: 5px;
+    } 
+    /* ================= Start chefs ================= */ 
+
+    .total_chefs {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        margin-top: 30px;
+        padding: 0 10px;
+        padding-bottom: 10%;
+    }
+
+    .chefs .chef_card p {
+        margin-bottom: -20px;
+    }   
+    
+    .card_img {
+        width: 70%;
+        margin-left: 15%;
+    }    
+    .chefs .chef_card:last-child {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .chefs .chef_card img {
+        width: 100%;
+    }
+
+    /* ================= End chefs ================= */
+    /* ================= Start Menus ================= */
+    .total_menus {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin-top: 3%;
+    }
+
+    .total_menus .menu_detail h2 {
+        font-size: 28px;
+    }
+    /* ================= End Menus ================= */ 
+    /* ================= Start Testimonials ================= */ 
+    .test_monials {
+        display: none;
+    }
+    /* ================= End Testimonials ================= */
+    /* ================= Start contact ================= */
+    .contacts {
+        margin-top: -15%;
+        padding: 100px 0;
+    }
+
+    .contacts .total_conatcts {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        padding: 0 10px;
+        margin-left: 0%;
+    }
+
+    .contacts .total_conatcts iframe {
+        width: 100%;
+    }
+
+    .contacts .total_conatcts .form {
+        width: 100%;
+    }
+
+    /* ================= End contact ================= */
+
+    /* ================= Start footer ================= */
+    footer {
+        padding-bottom: 50px;
+    }
+
+    footer .total_footers {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 2%;
+        grid-row-gap: 2%;
+    }
+
+    footer .special_footer {
+        border-radius: 20px;
+        padding: 20px;
+        height: 215px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    /* ================= End footer ================= */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    /* ================= Start Navbar ================= */ 
+
+    .total_nav .navbar-brand {
+        margin-right: 35%;
+    }    
+
+    nav .info_right  button {
+        width: 80% !important;
+        background: green ;
+    }
+
+    /* ================= End Navbar ================= */
+
+    /* ================= Start About ================= */
+
+    .about_div {
+        padding: 50px 0;
+        margin-top: -20px;
+    }
+
+    .about_div p:first-child {
+        margin-top: 70px !important;
+    }
+
+    .about_div .total_about .left_about h1 {
+        font-size: 20px;
+    }
+
+    /* ================= End About ================= */
+    
+
+    /* ================= Start chefs ================= */ 
+
+    .total_chefs {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        margin-top: 30px;
+        padding: 0 10px;
+        padding-bottom: 10%;
+    }
+
+    .chefs h1 {
+        font-size: 28px;
+    }
+
+    .chefs .chefs_para {
+        font-size: 14px;
+    }
+    
+    .card_img {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .hover_bac {
+        width: 100%;
+    }
+    
+    .chefs .chef_card:last-child {
+        width: 100%;
+    }
+    .chefs .chef_card img {
+        width: 100%;
+    }
+        
+    /* ================= End chefs ================= */
+
+    /* ================= Start Menus ================= */
+
+    .menus h1 {
+        font-size: 30px;
+    }
+
+    .total_menus {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin-top: 3%;
+    }
+    /* ================= End Menus ================= */     
+
+    /* ================= Start contact ================= */
+
+    .contacts {
+        margin-top: -15%;
+        padding: 50px 0;
+    }
+
+    .contacts .total_conatcts {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 3%;
+        padding: 0 0px;
+        margin-left: 0%;
+    }
+
+    .contacts .total_conatcts iframe {
+        width: 100%;
+    }
+
+    .contacts .total_conatcts .form {
+        width: 100%;
+    }
+
+    .contacts .total_conatcts .contact_names {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .contacts .total_conatcts .contact_names input {
+        width: 96.2%;
+    }
+
+    .contacts .total_conatcts .contact_names input:first-child {
+        margin-bottom: 7px;
+    }
+
+    .contacts .total_conatcts .form h1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .contacts .total_conatcts .form button {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    /* ================= End contact ================= */
+
+    /* ================= Start footer ================= */
+    footer {
+        padding-bottom: 50px;
+    }
+
+    footer h1 {
+        font-size: 20px;
+    }
+
+    footer .total_footers {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 2%;
+        grid-row-gap: 2%;
+    }
+
+    footer .special_footer {
+        border-radius: 20px;
+        padding: 20px;
+        height: 215px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    /* ================= End footer ================= */
+}
